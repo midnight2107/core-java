@@ -2,10 +2,10 @@ package com.javamadesimple.cj.nestedloops;
 
 public class PrintTables {
     public static void main(String[] args) {
-        for(int k = 1; k <= 20;k++) {
-            int num = k;
-            for(int i = 1; i <= 10; i++){
-                System.out.println(num + " * " + i + " = " + num * i);
+        for(int i = 1; i <= 20;i++) {
+            int num = i;
+            for(int k = 1; k <= 10; k++){
+                System.out.println(num + " * " + k + " = " + num * k);
             }
             System.out.println("-".repeat(20));
         }
